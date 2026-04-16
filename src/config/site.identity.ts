@@ -1,10 +1,10 @@
 export const siteIdentity = {
   code: process.env.NEXT_PUBLIC_SITE_CODE || 'am2x8v4q7m',
   name: process.env.NEXT_PUBLIC_SITE_NAME || 'Aerial Matrix',
-  tagline: process.env.NEXT_PUBLIC_SITE_TAGLINE || 'Image discovery platform',
+  tagline: process.env.NEXT_PUBLIC_SITE_TAGLINE || 'Visual-first showcases and media posts',
   description:
     process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
-    'An image-led platform for galleries, visual publishing, and media-rich discovery.',
+    'An image-led publishing site for showcases, visual collections, and gallery-style posts.',
   domain: process.env.NEXT_PUBLIC_SITE_DOMAIN || 'aerialmatrix.com',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://aerialmatrix.com',
   ogImage: process.env.NEXT_PUBLIC_SITE_OG_IMAGE || '/og-default.png',
